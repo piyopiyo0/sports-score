@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Delius+Swash+Caps&family=Nova+Square&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 id="home-score">0</h2>
+                <button id="home-score-btn-1" onclick="increaseHomeScoreByOne()">+1</button>
+                <button id="home-score-btn-3" onclick="increaseHomeScoreByThree()">+3</button>
+                <button id="home-score-btn-5" onclick="increaseHomeScoreByFive()">+5</button>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h2 id="guest-score">0</h2>
+                <button id="guest-score-btn-1" onclick="increaseGuestScoreByOne()">+1</button>
+                <button id="guest-score-btn-3" onclick="increaseGuestScoreByThree()">+3</button>
+                <button id="guest-score-btn-5" onclick="increaseGuestScoreByFive()">+5</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
